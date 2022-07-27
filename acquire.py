@@ -18,8 +18,7 @@ def new_zillow_data():
             calculatedfinishedsquarefeet as sq_ft_area, 
             yearbuilt, 
             taxvaluedollarcnt as home_estimate,
-            fips as county_code, 
-            taxamount as tax_paid
+            fips as county_code 
             from properties_2017
             join predictions_2017 as pred using(parcelid)
             join propertylandusetype as prop using (propertylandusetypeid)
