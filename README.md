@@ -53,6 +53,11 @@ In this project different features that has influence on determining the home va
 - Build a regression model that performs better than a baseline
 - Linear regression, Lassolars, Tweedieregressor models were created and fitted with train sample and made a predictions.
 - RMSE was chosen as metrics to compare the three different models.
+- Root mean square error, which is a metric that tells us the average distance between the predicted values from the model and the actual values in the dataset.
+
+- The lower the RMSE, the better a given model is able to “fit” a dataset.
+
+
 
 ## CONCLUSIONS:
 - Features explored 'Bed', 'Bath', and ' Squre foot area' have the direct correlation with the property value. I decided to drop 'county_code' feature as feature selection method gave bed, bath and sq)ft_area as top 3 best features.
